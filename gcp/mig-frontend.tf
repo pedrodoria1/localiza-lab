@@ -2,7 +2,7 @@ resource "google_compute_target_pool" "appserver" {
   name = "instance-pool"
 
   instances = [
-    "us-east1-c/myinstance1",
+    "us-central1-a/myinstance1",
     "us-east1-b/myinstance2",
   ]
 
